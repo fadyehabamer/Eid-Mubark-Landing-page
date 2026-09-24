@@ -126,3 +126,10 @@ nav .icons i {
         
     }
 }
+
+/* stop the endless floating animation for people who ask for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .img {
+        animation: none;
+    }
+}
